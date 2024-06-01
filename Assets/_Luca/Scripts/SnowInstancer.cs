@@ -13,7 +13,7 @@ public class SnowInstancer : MonoBehaviour
 
     private void Awake()
     {
-        int amount = (2 / voxelSize);
+        int amount = (int)Mathf.Floor(2 / voxelSize);
         int[,,] snowblock = new int[amount, amount, amount];
     }
     // Start is called before the first frame update
@@ -32,8 +32,8 @@ public class SnowInstancer : MonoBehaviour
         q.Clear();
         for (int i = 0; i < amount; i++)
         {
-            GameObject go = Instantiate(prefab, spawn.position, spawn.rotation);
-            go.name = prefab.name + i.ToString();
+            GameObject go = Instantiate(snowParticle, spawn.position, spawn.rotation);
+            go.name = snowParticle.name + i.ToString();
             q.Enqueue(go.GetComponent<BulletBehaviour>());
             go.SetActive(false);
         }

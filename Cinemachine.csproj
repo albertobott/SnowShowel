@@ -99,8 +99,8 @@
     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.10.0\Runtime\Behaviours\CinemachineClearShot.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.10.0\Runtime\Impulse\CinemachineFixedSignal.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.10.0\Runtime\Experimental\CinemachineNewFreeLook.cs" />
-    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.10.0\Runtime\Core\SplineHelpers.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.10.0\Runtime\Timeline\CinemachineTrack.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.10.0\Runtime\Core\SplineHelpers.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.10.0\Runtime\Behaviours\Cinemachine3rdPersonAim.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.10.0\Runtime\Core\CinemachinePropertyAttribute.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.10.0\Runtime\AssemblyInfo.cs" />
